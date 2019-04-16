@@ -12,6 +12,9 @@ import org.aspectj.lang.reflect.MethodSignature;
 
 import me.haowen.aspectjdemo.aop.annotation.CheckNetwork;
 
+/**
+ * 网络检查
+ */
 @Aspect
 public class CheckNetworkAspect {
 

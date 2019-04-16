@@ -19,6 +19,9 @@ import java.util.Arrays;
 import io.reactivex.functions.Consumer;
 import me.haowen.aspectjdemo.aop.annotation.CheckPermission;
 
+/**
+ * 权限检查
+ */
 @SuppressWarnings("ResultOfMethodCallIgnored")
 @Aspect
 public class CheckPermissionAspect {
